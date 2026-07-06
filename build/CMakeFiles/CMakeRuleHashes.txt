@@ -1,4 +1,0 @@
-# Hashes of file build rules.
-04a56a61b702fdafaef5b3052aab89ae /home/k/algos/ObliqueEngine/assets/shaders/forward_3d.frag.spv
-28ce8e04dad6fa6f82530b3680aef39e /home/k/algos/ObliqueEngine/assets/shaders/forward_3d.vert.spv
-271a448260924b83311405bba908a601 CMakeFiles/CompileShaders
