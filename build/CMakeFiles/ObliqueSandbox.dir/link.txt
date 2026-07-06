@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/ObliqueSandbox.dir/link.d CMakeFiles/ObliqueSandbox.dir/sandbox/main.cpp.o -o ObliqueSandbox  -Wl,-rpath,/home/k/algos/ObliqueEngine/build libOblique.so _deps/glm-build/glm/libglm.a

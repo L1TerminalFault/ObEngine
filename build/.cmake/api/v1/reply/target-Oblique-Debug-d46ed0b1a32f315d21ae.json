@@ -1,0 +1,496 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libOblique.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_dependencies",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "EnTT::@e079cb554d68b20fd169"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glm::@ce54d98d7b326a3e12a8"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++23 -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "OBLIQUE_PROJECT_ROOT=\"/home/k/algos/ObliqueEngine/\""
+				},
+				{
+					"define" : "Oblique_EXPORTS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SPDLOG_COMPILED_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/k/algos/ObliqueEngine/includes"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/k/algos/ObliqueEngine/thirdparty/volk"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/k/algos/ObliqueEngine/thirdparty/vma"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/imgui-src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/imgui-src/backends"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/entt-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/glm-src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "23"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "OBLIQUE_PROJECT_ROOT=\"/home/k/algos/ObliqueEngine/\""
+				},
+				{
+					"define" : "Oblique_EXPORTS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SPDLOG_COMPILED_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/k/algos/ObliqueEngine/includes"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/k/algos/ObliqueEngine/thirdparty/volk"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/k/algos/ObliqueEngine/thirdparty/vma"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/imgui-src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/imgui-src/backends"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/entt-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/k/algos/ObliqueEngine/build/_deps/glm-src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "CompileShaders::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glm::@ce54d98d7b326a3e12a8"
+		}
+	],
+	"id" : "Oblique::@6890427a1f51a3e7e1df",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "EnTT::@e079cb554d68b20fd169"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glm::@ce54d98d7b326a3e12a8"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "EnTT::@e079cb554d68b20fd169"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glm::@ce54d98d7b326a3e12a8"
+		}
+	],
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-shared",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lglfw",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "_deps/spdlog-build/libspdlogd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/glm-build/glm/libglm.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgcc_s_asneeded",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgcc_s_asneeded",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"fragment" : "glfw"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "dl"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "EnTT::@e079cb554d68b20fd169"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glm::@ce54d98d7b326a3e12a8"
+		}
+	],
+	"name" : "Oblique",
+	"nameOnDisk" : "libOblique.so",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "CompileShaders::@6890427a1f51a3e7e1df"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/engine/engine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/log/log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/window/glfw_window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rhi/vulkan/GraphicsPipeline.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rhi/vulkan/Mesh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rhi/vulkan/Render.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rhi/vulkan/RenderPass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rhi/vulkan/Swapchain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rhi/vulkan/VmaImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rhi/vulkan/VulkanRenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "thirdparty/volk/volk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/imgui-src/imgui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/imgui-src/imgui_demo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/imgui-src/imgui_draw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/imgui-src/imgui_tables.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/imgui-src/imgui_widgets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/imgui-src/backends/imgui_impl_glfw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/imgui-src/backends/imgui_impl_vulkan.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/k/algos/ObliqueEngine/build/_deps/glm-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
