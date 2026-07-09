@@ -42,6 +42,20 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(glm)
 
+FetchContent_Declare(
+    glfw
+    GIT_REPOSITORY https://github.com/glfw/glfw.git
+    GIT_TAG        3.4 # Or your preferred stable version
+    GIT_SHALLOW    TRUE
+)
+# Disable building GLFW documentation and examples to speed up compile time
+set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
+set(GLFW_INSTALL OFF CACHE BOOL "" FORCE)
+
+FetchContent_MakeAvailable(glfw)
+
 # ImGui (Only if not in Production)
 if(NOT OBLIQUE_PROD_BUILD)
   FetchContent_Declare(
